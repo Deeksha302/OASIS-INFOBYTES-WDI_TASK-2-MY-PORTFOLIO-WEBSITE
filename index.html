@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8178b343ff.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/logo.png" class="logo" width="300" height="130">
+                <ul id="sidemenu">
+                    <li><a href="#Home"><b>Home</b></a></li>
+                    <li><a href="#About"><b>About</b></a></li>
+                    <li><a href="#Services"><b>Services</b></a></li>
+                    <li><a href="#Portfolio"><b>Portfolio</b></a></li>
+                    <li><a href="#Contact"><b>Contact</b></a></li>
+                    <i class="fa-solid fa-star-of-life"onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-sharp fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>            
+            <div class="header-text">
+               <h1><span><br>Hello, <br>I'm <span>Ɗeekຮђaͥ</span><br>Kumari from India.... <br><p>♦⪼𝑾𝘦в𝘋𝘦𝒗êꙆ𝚘𝒑ê𝙧⪻♦</p></span></h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello! I'm Deeksha, a recent B.Tech graduate in Computer Science and Engineering, passionate about technology and innovation. I have hands-on experience in various domains through multiple internships, including:
+                        <br><br>
+                        <i class="fa-solid fa-star-of-david"></i> <span>OASIS INFOBYTES</span>: Currently working as a web development intern, where I am honing my skills in full stack development. <br><br>
+                        <i class="fa-solid fa-star-of-david"></i> <span>CODSOFT</span>: Completed an internship where I developed a password generator project, along with other web development assignments.
+                        <br><br>
+                        <i class="fa-solid fa-star-of-david"></i><span> NIELIT Haridwar</span>: Gained practical experience in the data science domain, working on projects that involved data analysis and machine learning.
+                        With a solid foundation in both data science and web development, I am eager to contribute to projects that push the boundaries of technology and deliver impactful solutions. <br> <br>
+                        <i class="fa-solid fa-angles-right"></i>
+                        My goal is to continuously grow as a developer and make meaningful contributions to the tech community.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')"><a href="#" class="btn">Skills</a></p>
+                            <p class="tab-links" onclick="opentab('Experience')"><a href="#"class="btn">Experience</a></p>
+                            <p class="tab-links" onclick="opentab('Education')"><a href="#"class="btn">Education</a></p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            
+                        </div>
+                        <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><span>Data Science internship @Nielit,Haridwar</span></li>
+                                <li><span>Machine Learning Training @DTU,Delhi</span></li>
+                                <li><span>Python Internship @CodSoft,Kolkata</span></li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>2023</span>B.Tech</li>
+                                <li><span>2019</span>2th</li>
+                                <li><span>2017</span>10th</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------------------------services-------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2><span>Web Designing</span></h2>
+                    <p>A web developer is an expert in designing and developing websites. They guarantee that websites satisfy users ’ expectations by ensuring they are aesthetically pleasing, operate without hiccups, and provide quick entry points with no loading difficulties or error messages.</p>
+                    <a href="#">learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2><span>Python Programming</span></h2>
+                    <p> Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python. Paradigm. Multi-paradigm: object-oriented, procedural (imperative), functional, structured, reflective.</p>
+                    <a href="#">learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2><span>Machine Learning</span></h2>
+                    <p>Machine learning (ML) is a branch of artificial intelligence (AI) and computer science that focuses on the using data and algorithms to enable AI to imitate the way that humans learn, gradually improving its accuracy.</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!---------------------------Portfolio----------------->
+<div id="portfolio">
+    <div class="conatiner">
+        <h2 class="sub-title">My Work</h2>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/work1.png">
+                <div class="layer">
+                    <h3>Socia Media App</h3>
+                    <p>Social media is a collective term for websites and applications that focus on communication, community-based input, interaction, content-sharing and collaboration. People use social media to stay in touch and interact with friends, family and various communities.The app connects you to the talented people around the world. Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>Music Player lets you manage all your music files quickly and easily.This audio player supports almost all types of mp3, midi, wav,flac raw aac files and other audio formats.Easily browse and play music songs by genres, albums, artists, songs and folder.The app connects you to the talented people around the world.Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>An online store is a website, app or platform that helps businesses sell their products or services digitally. Online stores offer convenience, accessibility, and often a wider range of products than bricks-and-mortar stores, allowing customers to browse, place orders, and make payments virtually.The app connects you to the talented people around the world. Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#"class="btn">see more</a>
+    </div>
+</div>
+<!----------------contact----------------------->
+<div id="contact">
+    <div class="conatiner">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> contact@example.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> +91-7417299677</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://instragram.com"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="image/Resume.pdf"download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet"> 
+                    <input type="text"name="Name"placeholder="your name" required>
+                    <input type="email"name="Email" placeholder="your Email"required>
+                    <textarea name="Message" row="6" placeholder="your Message"></textarea>
+                    <button type="submit"class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright ©️ Deeksha. Made with <i class="fa-solid fa-heart"></i> by easy Tutorials!</p>
+    </div>
+</div>
+
+<script>
+    var tablinks=doucment.getElementByClassName("tab-links");
+    var tabcontents=doucment.getElementByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link"); 
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab"); 
+            }
+           event.currentTarget.classList.add("active-link"); 
+           document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx5JrlA5kNO23C73nBJQbyQZV0eySyGbmk3D_d4phT3kdn3_U7cWXmTm_Xzm3RGEx8CRA/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            masg.innerHTML="Message sent Successfully!"
+            setTimeout(function(){
+                masg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
